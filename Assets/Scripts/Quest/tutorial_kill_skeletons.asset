@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2599166dac122074e92485aff9eb0b35, type: 3}
+  m_Name: tutorial_kill_skeletons
+  m_EditorClassIdentifier: 
+  questId: tutorial_kill_skeletons
+  questName: Skeleton Slayer
+  questDescription: The undead skeletons are terrorizing the area. Eliminate them
+    to restore peace!
+  questIcon: {fileID: 0}
+  questType: 3
+  priority: 1
+  isRepeatable: 0
+  autoComplete: 0
+  status: 1
+  objectives:
+  - objectiveId: kill_skeletons
+    description: Kill 3 Skeletons
+    type: 0
+    isCompleted: 0
+    isOptional: 0
+    targetId: skeleton
+    requiredAmount: 0
+    currentAmount: 0
+    targetLocation: {x: 0, y: 0}
+    locationRadius: 0
+  playerLevelRequired: 1
+  prerequisiteQuestIds: []
+  expReward: 0
+  currencyReward: 0
+  itemRewards: []
+  startDialogueId: quest_skeleton_start
+  inProgressDialogueId: 
+  completeDialogueId: 
+  failedDialogueId: 
+  hasTimeLimit: 0
+  timeLimitInSeconds: 300

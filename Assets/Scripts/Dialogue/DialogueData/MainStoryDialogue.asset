@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a7f21e606af8404dbc9bdb5266b666c, type: 3}
+  m_Name: MainStoryDialogue
+  m_EditorClassIdentifier: 
+  dialogueSequences:
+  - sequenceID: game_intro
+    dialogueLines:
+    - characterName: Narrator
+      dialogueText: "Elaria t\u1EEBng l\xE0 v\xF9ng \u0111\u1EA5t r\u1EF1c r\u1EE1
+        \xE1nh s\xE1ng, \u0111\u01B0\u1EE3c b\u1EA3o v\u1EC7 b\u1EDFi Ng\u1ECDn L\u1EEDa
+        Thi\xEAng..."
+      characterSprite: {fileID: 0}
+      displayDuration: 4
+      waitForInput: 1
+    - characterName: Narrator
+      dialogueText: "Nh\u01B0ng Morveth - chi\u1EBFn binh \xE1nh s\xE1ng v\u0129
+        \u0111\u1EA1i nh\u1EA5t \u0111\xE3 sa ng\xE3, tr\u1EDF th\xE0nh The Withering
+        Flame."
+      characterSprite: {fileID: 0}
+      displayDuration: 4
+      waitForInput: 1
+    - characterName: Narrator
+      dialogueText: "Gi\u1EDD \u0111\xE2y, ch\u1EC9 c\xF2n Ember - Tia L\u1EEDa Cu\u1ED1i
+        C\xF9ng c\xF3 th\u1EC3 c\u1EE9u r\u1ED7i th\u1EBF gi\u1EDBi."
+      characterSprite: {fileID: 0}
+      displayDuration: 4
+      waitForInput: 1
+    isRepeatable: 0
+    nextSequenceID: ember_awakening
+  - sequenceID: ember_awakening
+    dialogueLines:
+    - characterName: Ember
+      dialogueText: "Morveth... t\u1EA1i sao? Ch\xFAng ta t\u1EEBng l\xE0 \u0111\u1ED3ng
+        \u0111\u1ED9i, t\u1EEBng chi\u1EBFn \u0111\u1EA5u c\xF9ng nhau..."
+      characterSprite: {fileID: 0}
+      displayDuration: 3
+      waitForInput: 1
+    - characterName: Ember
+      dialogueText: "Nh\u01B0ng ta s\u1EBD kh\xF4ng \u0111\u1EC3 anh h\u1EE7y ho\u1EA1i
+        Elaria. Ta s\u1EBD mang \xE1nh s\xE1ng tr\u1EDF l\u1EA1i!"
+      characterSprite: {fileID: 0}
+      displayDuration: 3
+      waitForInput: 1
+    isRepeatable: 0
+    nextSequenceID: 

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99830a583e07a124493d5c0335bff9e0, type: 3}
+  m_Name: Pant
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: Leggings_Pant
+  icon: {fileID: 1236261992, guid: be55291aae08d434db3da3b59db3ab4a, type: 3}
+  equipmentType: 5
+  strength: 0
+  agility: 0
+  intelligence: 0
+  vitality: 0
+  damage: 0
+  critChange: 0
+  critPower: 0
+  health: 5
+  armor: 10
+  evasion: 3
+  magicResistance: 0
+  fireDamage: 0
+  iceDamage: 0
+  lightingDamage: 0

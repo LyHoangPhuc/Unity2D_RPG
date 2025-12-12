@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99830a583e07a124493d5c0335bff9e0, type: 3}
+  m_Name: Heal_Potion
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: Heal_Potion
+  icon: {fileID: 938343867, guid: be55291aae08d434db3da3b59db3ab4a, type: 3}
+  itemId: 72baa512a9810b749b2649eb3336777c
+  dropChange: 10
+  equipmentType: 1
+  itemCoolDown: 10
+  itemEffects:
+  - {fileID: 11400000, guid: 57a63976d91d9df408eee1077ad0c710, type: 2}
+  itemEffectDescription: Healling 30% of Max HP Cooldown 10 second
+  strength: 0
+  agility: 0
+  intelligence: 0
+  vitality: 0
+  damage: 0
+  critRate: 0
+  critDame: 0
+  health: 0
+  armor: 0
+  evasion: 0
+  magicResistance: 0
+  fireDamage: 0
+  iceDamage: 0
+  lightingDamage: 0
+  craftingMaterials: []

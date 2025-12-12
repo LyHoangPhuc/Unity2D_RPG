@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99830a583e07a124493d5c0335bff9e0, type: 3}
+  m_Name: Diamond_Ring
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: Diamond_Ring
+  icon: {fileID: -102417002, guid: be55291aae08d434db3da3b59db3ab4a, type: 3}
+  itemId: 4296756f53269d24c9fed43089154e50
+  dropChange: 0
+  equipmentType: 2
+  itemCoolDown: 0
+  itemEffects: []
+  itemEffectDescription: 
+  strength: 25
+  agility: 0
+  intelligence: 50
+  vitality: 20
+  damage: 0
+  critRate: 0
+  critDame: 0
+  health: 0
+  armor: 0
+  evasion: 0
+  magicResistance: 0
+  fireDamage: 0
+  iceDamage: 0
+  lightingDamage: 0
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: f79670d5d73eea046bc6c6fa4fb0ea4f, type: 2}
+    stackSize: 5
