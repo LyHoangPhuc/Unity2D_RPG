@@ -37,3 +37,9 @@ Scripts/
 * Nguyễn Trần Bảo Thương: Trưởng nhóm, Thiết kế Core Gameplay, Backend & Âm thanh.
 * Hồ Công Minh: Thiết kế bản đồ (Map), Quản lý Asset, Kiểm thử & Báo cáo.
 * Lý Hoàng Phúc: Thiết kế UI/UX, Logic Frontend & Hệ thống Inventory.
+  
+💡 Video game demo: 
+
+https://github.com/user-attachments/assets/0283b511-cb6a-4b0f-8ec6-775fbb161692
+
+
